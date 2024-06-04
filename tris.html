@@ -1,0 +1,182 @@
+<HTML>
+  <HEAD>
+    <TITLE>FUN GAMES</TITLE>
+    <LINK rel="icon" type="image/x-icon" href="C:\Users\Mattia\Desktop\website\tris.png">
+  </HEAD>
+  <BODY bgcolor="###FFECA1">
+    <FONT size="6">
+      <P>
+        <H1>THIS IS A TEST</H1>
+        <BR>
+        Hi, this website is work in progress
+      </P>
+    </FONT>
+    <FONT size="7">
+      <TABLE width="90%" align="center" rules="all" border="1" cellpadding="115" frame="void" cellspacing="0">
+        <TR align="center">
+          <TH width="230">
+            <img id="0" width="128" height="128"> 
+            <button type="button" onclick="show0()" id="b0">
+              Show Image
+            </button>
+          </TH>
+          <TH width="230">
+            <img id="1" width="128" height="128">
+            <button type="button" onclick="show1()" id="b1">
+              Show Image
+            </button>
+          </TH>
+          <TH width="230">
+            <img id="2" width="128" height="128">
+            <button type="button" onclick="show2()" id="b2">
+              Show Image
+            </button>
+          </TH>
+        </TR>
+        <TR align="center">
+          <TD width="230">
+            <img id="3" width="128" height="128">
+            <button type="button" onclick="show3()" id="b3">
+              Show Image
+            </button>
+          </TD>
+          <TD width="230">
+            <img id="4" width="128" height="128">
+            <button type="button" onclick="show4()" id="b4">
+              Show Image
+            </button>
+          </TD>
+          <TD width="230">
+            <img id="5" width="128" height="128">
+            <button type="button" onclick="show5()" id="b5">
+              Show Image
+            </button>
+          </TD>
+        </TR>
+        <TR align="center">
+          <TD width="230">
+            <img id="6" width="128" height="128">
+            <button type="button" onclick="show6()" id="b6">
+              Show Image
+            </button>
+          </TD>
+          <TD width="230">
+            <img id="7" width="128" height="128">
+            <button type="button" onclick="show7()" id="b7">
+              Show Image
+            </button>
+          </TD>
+          <TD width="230">
+            <img id="8" width="128" height="128">
+            <button type="button" onclick="show8()" id="b8">
+              Show Image
+            </button>
+          </TD>
+        </TR>
+      </TABLE>
+    </FONT>
+    <script>
+      var count = 0;
+      var imageSrc = "O.png";
+
+      function show0() {
+        if (count % 2 === 0) {
+          imageSrc = "O.png";
+        } else {
+          imageSrc = "X.png";
+        }
+        document.getElementById("0").src = imageSrc;
+        document.getElementById("b0").style.display = count % 2 === 0 ? "none" : "block";
+        count++;
+      }
+
+      function show1() {
+        if (count % 2 === 0) {
+          imageSrc = "O.png";
+        } else {
+          imageSrc = "X.png";
+        }
+        document.getElementById("1").src = imageSrc;
+        document.getElementById("b1").style.display = count % 2 === 0 ? "none" : "block";
+        count++;
+      }
+
+      function show2() {
+        if (count % 2 === 0) {
+          imageSrc = "O.png";
+        } else {
+          imageSrc = "X.png";
+        }
+        document.getElementById("2").src = imageSrc;
+        document.getElementById("b2").style.display = count % 2 === 0 ? "none" : "block";
+        count++;
+      }
+
+      function show3() {
+        if (count % 2 === 0) {
+          imageSrc = "O.png";
+        } else {
+          imageSrc = "X.png";
+        }
+        document.getElementById("3").src = imageSrc;
+        document.getElementById("b3").style.display = count % 2 === 0 ? "none" : "block";
+        count++;
+      }
+
+      function show4() {
+        if (count % 2 === 0) {
+          imageSrc = "O.png";
+        } else {
+          imageSrc = "X.png";
+        }
+        document.getElementById("4").src = imageSrc;
+        document.getElementById("b4").style.display = count % 2 === 0 ? "none" : "block";
+        count++;
+      }
+
+      function show5() {
+        if (count % 2 === 0) {
+          imageSrc = "O.png";
+        } else {
+          imageSrc = "X.png";
+        }
+        document.getElementById("5").src = imageSrc;
+        document.getElementById("b5").style.display = count % 2 === 0 ? "none" : "block";
+        count++;
+      }
+
+      function show6() {
+        if (count % 2 === 0) {
+          imageSrc = "O.png";
+        } else {
+          imageSrc = "X.png";
+        }
+        document.getElementById("6").src = imageSrc;
+        document.getElementById("b6").style.display = count % 2 === 0 ? "none" : "block";
+        count++;
+      }
+
+      function show7() {
+        if (count % 2 === 0) {
+          imageSrc = "O.png";
+        } else {
+          imageSrc = "X.png";
+        }
+        document.getElementById("7").src = imageSrc;
+        document.getElementById("b7").style.display = count % 2 === 0 ? "none" : "block";
+        count++;
+      }
+
+      function show8() {
+        if (count % 2 === 0) {
+          imageSrc = "O.png";
+        } else {
+          imageSrc = "X.png";
+        }
+        document.getElementById("8").src = imageSrc;
+        document.getElementById("b8").style.display = count % 2 === 0 ? "none" : "block";
+        count++;
+      }
+    </script>
+  </BODY>
+</HTML>
